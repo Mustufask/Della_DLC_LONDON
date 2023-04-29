@@ -1,0 +1,62 @@
+*,
+::after,
+::before {
+    /*Include padding and borders in elements total width*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    /* For all hyperlinks text color and decoration */
+    text-decoration: none;
+}
+
+
+/* Body */
+body {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+/* Header */
+header h1 {
+    font-family: 'Great Vibes', cursive;
+}
+
+header {
+    background: url('https://th.bing.com/th/id/OIP.gLxJjbAP6ZH5g_4GYJPDswHaEo?w=279&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7') no-repeat right;
+    text-align: center;
+}
+
+
+/* Common styles for elements */
+img {
+    vertical-align: middle;
+    border-style: none;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.testimonials {
+    font-size: 10px;
+    overflow: hidden;
+}
+
+.testimonial-container {
+    overflow: hidden;
+    height: 100%;
+    /* flex-wrap: wrap; */
+    display: flex;
+    align-items: stretch;
+}
+
+.forum {
+    font-family: 'Great Vibes', cursive;
+}
